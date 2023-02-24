@@ -1,0 +1,7 @@
+#!./prototype.rb
+# vim: set filetype=yaml:
+
+services:
+  id:
+    image: alpine:latest
+    entrypoint: /usr/bin/id
